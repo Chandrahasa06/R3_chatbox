@@ -123,7 +123,7 @@ class Peer:
             print("1️⃣ Send a message")
             print("2️⃣ Show active peers")
             print("3️⃣ Connect to known peers")
-            print("0️⃣ Exit")
+            print("0️⃣ Quit")
             choice = input("Enter your choice: ")
 
             if choice == "1":
