@@ -121,8 +121,8 @@ class Peer:
         while True:
             print("\n🔹 ==== Menu ==== 🔹")
             print("1️⃣ Send a message")
-            print("2️⃣ Show active peers")
-            print("3️⃣ Connect to known peers")
+            print("2️⃣ Query active peers")
+            print("3️⃣ Connect to active peers")
             print("0️⃣ Quit")
             choice = input("Enter your choice: ")
 
