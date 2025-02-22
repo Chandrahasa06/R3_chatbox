@@ -92,12 +92,5 @@ TEAM R3
 ```
 
 ---
-## 📌 Future Improvements
-- 🌍 **Global Peer Discovery** (via decentralized node lists)
-- 🔒 **Encryption for Secure Messaging**
-- 📂 **File Transfer Support**
-- 📡 **Web Interface for P2P Chat**
-
----
 ## 📌 License
 This project is open-source and free to use for learning and development purposes. 🚀
