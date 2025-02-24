@@ -1,6 +1,7 @@
 # 📌 Peer-to-Peer Messaging System
 
-## Team Members
+## Team R3
+## Members
 1.Rachakonda Chandrahasa (230001065) <br>
 2.Reena Meena (230003057) <br>
 3.Rahul Kumar (230001066) <br>
