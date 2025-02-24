@@ -1,5 +1,10 @@
 # 📌 Peer-to-Peer Messaging System
 
+## Team Members
+1.Rachakonda Chandrahasa (230001065) <br>
+2.Reena Meena (230003057) <br>
+3.Rahul Kumar (230001066) <br>
+
 ## 🔷 Overview
 This is a simple **Peer-to-Peer (P2P) networking system** that allows users to exchange messages over a local network (LAN) or across predefined static peers. The system maintains a list of active peers, verifies connections, and automatically removes inactive nodes.
 
