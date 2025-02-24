@@ -61,6 +61,8 @@ class Peer:
             client_socket.sendall(formatted_message.encode())
             client_socket.close()
 
+            print(f"✅ Message sent to {target_ip}:{target_port} → {message}")
+
             if message.strip().lower() == "exit":
                 if (target_ip, target_port) in self.peers:
                     del self.peers[(target_ip, target_port)]
@@ -114,16 +116,16 @@ class Peer:
         """Connect to predefined static peers."""
         for ip, port in self.STATIC_PEERS:
             self.send_message(ip, port, "connect")
-        print("✅ Static peer connections attempted.")
-    
+        print("""✅ Static peer connected("10.206.4.122", 1255) and ("10.206.5.228", 6555).""")
+        
     def menu(self):
         """Display menu options."""
         while True:
             print("\n🔹 ==== Menu ==== 🔹")
             print("1️⃣ Send a message")
-            print("2️⃣ Query active peers")
-            print("3️⃣ Connect to active peers")
-            print("0️⃣ Quit")
+            print("2️⃣ Show active peers")
+            print("3️⃣ Connect to known peers")
+            print("0️⃣ Exit")
             choice = input("Enter your choice: ")
 
             if choice == "1":
